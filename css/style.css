@@ -80,7 +80,7 @@ header{
    padding-right: 2px;
    color: #99d5e3;
   
-   font-size: 25px;
+   font-size: 20px;
    color: #6EBAA4;
    border-color: #6EBAA4;
    text-align: center;
@@ -92,7 +92,7 @@ header{
     font-size: small;
     background-color: #47adf1;
     padding: 10px;
-    border-radius: 40px;
+    border-radius: 50px;
     margin-left: 2%;
     
 }
@@ -103,7 +103,7 @@ header{
 #recruiting:before{
     content:"\1F5F8" ;
     color: #99d5e3;
-    font-size: 25px;
+    font-size: 20px;
     color: #6EBAA4;
     border-color: #6EBAA4;
     text-align: center;
@@ -116,7 +116,7 @@ header{
 #app:before{
     content:"\1F5F8 ";
     color: #99d5e3;
-    font-size: 25px;
+    font-size: 20px;
     color: #6EBAA4;
     border-color: #6EBAA4;
     text-align: center;
@@ -130,7 +130,7 @@ header{
 #interview:before{
     content:"\2717 ";
     color: #ed635b;
-    font-size: 25px;
+    font-size: 20px;
     border-color: #ed635b;
     text-align: center;
     border: 1px solid  #ed635b;
@@ -142,7 +142,7 @@ header{
 #summit:before{
     content:"\1F5F8";
     color: #99d5e3;
-    font-size: 25px;
+    font-size: 20px;
     border-color: #6EBAA4;
     text-align: center;
     border: 1px solid  #6EBAA4;
@@ -194,7 +194,7 @@ header{
 #homepage:before{
     content:"\1F5F8 ";
     color: #99d5e3;
-    font-size: 25px;
+    font-size: 20px;
     color: #6EBAA4;
     border-color: #6EBAA4;
     text-align: center;
@@ -216,7 +216,7 @@ header{
 #onboard:before{
     content:"\1F5F8 ";
     color: #99d5e3;
-    font-size: 25px;
+    font-size: 20px;
     color: #6EBAA4;
     border-color: #6EBAA4;
     text-align: center;
@@ -237,10 +237,10 @@ header{
 #review:before{
     content:"\1F5F8 ";
     color: #99d5e3;
-    font-size: 25px;
+    font-size: 20px;
     color: #6EBAA4;
     border-color: #6EBAA4;
     text-align: center;
     border: 1px solid  #6EBAA4;
-    border-radius: 40px;
+    border-radius: 50px;
 }
