@@ -1,13 +1,20 @@
+body{
+    background-color: #47adf1;
+   
+}
 *{
+    
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;  
 }
 /* logo header */
 header{
-  margin-top: 15px;
-  padding-left: 2%;
-  font-family: Arial, Helvetica, sans-serif;
+   background-color: #dbf0fc;
+   height: 80px;
+   
+   padding-left: 1%;
+   font-family: Arial, Helvetica, sans-serif;
 }
 .logo{
     height: 60px;
@@ -20,14 +27,21 @@ header{
 
 }
 /*  corpo della pagina  */
+
 .corpo{
-    width: 800px;
+    width: 1800px;
     margin:  60px 220px;
-  
+    background-color:#dbf0fc;
+    padding: 30px;
+    border-radius: 10px;
+    
 }
-
 /* testi interattivi */
-
+.interact{
+    width: 1600px;
+    border-bottom: 1px solid black;
+    
+}
 #task{
     
     background-color: #47adf1;
@@ -43,10 +57,12 @@ header{
 }
 
 /* Lista tasks */
+
 .list{
     margin-top: 5%;
     font-size: 30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 /* lista tasks */
 
@@ -76,7 +92,7 @@ header{
     font-size: small;
     background-color: #47adf1;
     padding: 1%;
-    border-radius: 30%;
+    border-radius: 40px;
     margin-left: 2%;
     
 }
@@ -95,7 +111,7 @@ header{
     border-radius: 50%;
 }
 #app{
-    padding-top: 5px;
+    padding-top: 10px;
 }
 #app:before{
     content:"\1F5F8 ";
@@ -108,7 +124,7 @@ header{
     border-radius: 50%;
 }
 #interview{
-    padding-top: 10px;
+    padding-top: 15px;
    padding-right: -80%;
 } 
 #interview:before{
@@ -121,7 +137,7 @@ header{
     border-radius: 50%;
 }
 #summit{
-    padding-top: 5px; 
+    padding-top: 15px; 
 }
 #summit:before{
     content:"\1F5F8";
@@ -131,11 +147,12 @@ header{
     text-align: center;
     border: 1px solid  #6EBAA4;
     border-radius: 50%;
+
 }
 #goals{
     font-size: small;
     background-color:#9c72e4;
-    border-radius: 30%;
+    border-radius: 40px;
     padding: 1%;
     background-position: 20%;
     margin-left: 2%;
@@ -143,7 +160,7 @@ header{
 #rec{
     font-size: small;
     background-color:#64c0a9;
-    border-radius: 30%;
+    border-radius: 40px;
     padding: 1%;
     background-position: 20%;
     margin-left: 2%;
@@ -151,18 +168,19 @@ header{
 #mobile{
     font-size: small;
     background-color:#f29e33;
-    border-radius: 30%;
+    border-radius: 40px;
     padding: 1%;
     background-position: 20%;
+    
     margin-left: 2%;
 }
 #schedule{
-    padding-top: 5px; 
+    padding-top: 10px; 
 }
 #schedule:before{
     content:"\2717 ";
     color: #ed635b;
-    font-size: 25px;
+    font-size: 20px;
     
     border-color:  #ed635b;
     text-align: center;
@@ -171,7 +189,7 @@ header{
 }
     
 #homepage{
-    padding-top: 5px;
+    padding-top: 10px;
 }
 #homepage:before{
     content:"\1F5F8 ";
@@ -185,19 +203,15 @@ header{
 }
 #website{
     font-size: small;
-    background-color:#f29e33;
-    border-radius: 30%;
+    background-color:#d863a1;
+    border-radius: 40px;
     padding: 1%;
     background-position: 20%;
     margin-left: 2%;
-    color: #6EBAA4;
-    border-color: #6EBAA4;
-    text-align: center;
-    border: 1px solid  #6EBAA4;
-    border-radius: 50%;
+    
 }
 #onboard{ 
-    padding-top: 5px;
+    padding-top: 10px;
 }
 #onboard:before{
     content:"\1F5F8 ";
@@ -211,8 +225,8 @@ header{
 }
 #sales{
     font-size: small;
-    background-color:#f29e33;
-    border-radius: 30%;
+    background-color:#b0c926;
+    border-radius: 40px;
     padding: 1%;
     background-position: 20%;
     margin-left: 2%; 
@@ -228,5 +242,5 @@ header{
     border-color: #6EBAA4;
     text-align: center;
     border: 1px solid  #6EBAA4;
-    border-radius: 50%;
+    border-radius: 40px;
 }
