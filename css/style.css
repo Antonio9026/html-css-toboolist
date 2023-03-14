@@ -1,0 +1,15 @@
+/* logo header */
+header{
+  margin-bottom: 25px;
+  padding-left: 2%;
+}
+.logo{
+    height: 60px;
+    width: auto;
+    line-height: 80px;
+    vertical-align: -20px;
+}
+.logo-text{
+    font-size: 40px;
+
+}
