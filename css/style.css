@@ -51,7 +51,6 @@ header{
 /* lista tasks */
 
 .arrow-up:before{
-    
    content: "\25BC";
    font-size: small;
 }
@@ -66,7 +65,11 @@ header{
    color: #99d5e3;
   
    font-size: 25px;
-   
+   color: #6EBAA4;
+   border-color: #6EBAA4;
+   text-align: center;
+   border: 1px solid  #6EBAA4;
+   border-radius: 50%;
 
 }
 .edit{
@@ -82,10 +85,14 @@ header{
     padding-top: 5px;
 }
 #recruiting:before{
-    
     content:"\1F5F8" ;
     color: #99d5e3;
     font-size: 25px;
+    color: #6EBAA4;
+    border-color: #6EBAA4;
+    text-align: center;
+    border: 1px solid  #6EBAA4;
+    border-radius: 50%;
 }
 #app{
     padding-top: 5px;
@@ -94,6 +101,11 @@ header{
     content:"\1F5F8 ";
     color: #99d5e3;
     font-size: 25px;
+    color: #6EBAA4;
+    border-color: #6EBAA4;
+    text-align: center;
+    border: 1px solid  #6EBAA4;
+    border-radius: 50%;
 }
 #interview{
     padding-top: 10px;
@@ -103,6 +115,10 @@ header{
     content:"\2717 ";
     color: #ed635b;
     font-size: 25px;
+    border-color: #ed635b;
+    text-align: center;
+    border: 1px solid  #ed635b;
+    border-radius: 50%;
 }
 #summit{
     padding-top: 5px; 
@@ -111,6 +127,10 @@ header{
     content:"\1F5F8";
     color: #99d5e3;
     font-size: 25px;
+    border-color: #6EBAA4;
+    text-align: center;
+    border: 1px solid  #6EBAA4;
+    border-radius: 50%;
 }
 #goals{
     font-size: small;
@@ -143,6 +163,11 @@ header{
     content:"\2717 ";
     color: #ed635b;
     font-size: 25px;
+    
+    border-color:  #ed635b;
+    text-align: center;
+    border: 1px solid  #ed635b;
+    border-radius: 50%;
 }
     
 #homepage{
@@ -152,6 +177,11 @@ header{
     content:"\1F5F8 ";
     color: #99d5e3;
     font-size: 25px;
+    color: #6EBAA4;
+    border-color: #6EBAA4;
+    text-align: center;
+    border: 1px solid  #6EBAA4;
+    border-radius: 50%;
 }
 #website{
     font-size: small;
@@ -160,6 +190,11 @@ header{
     padding: 1%;
     background-position: 20%;
     margin-left: 2%;
+    color: #6EBAA4;
+    border-color: #6EBAA4;
+    text-align: center;
+    border: 1px solid  #6EBAA4;
+    border-radius: 50%;
 }
 #onboard{ 
     padding-top: 5px;
@@ -168,6 +203,11 @@ header{
     content:"\1F5F8 ";
     color: #99d5e3;
     font-size: 25px;
+    color: #6EBAA4;
+    border-color: #6EBAA4;
+    text-align: center;
+    border: 1px solid  #6EBAA4;
+    border-radius: 50%;
 }
 #sales{
     font-size: small;
@@ -184,4 +224,9 @@ header{
     content:"\1F5F8 ";
     color: #99d5e3;
     font-size: 25px;
+    color: #6EBAA4;
+    border-color: #6EBAA4;
+    text-align: center;
+    border: 1px solid  #6EBAA4;
+    border-radius: 50%;
 }
