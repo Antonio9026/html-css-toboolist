@@ -13,21 +13,38 @@
     <!-- titolo e logo pagina -->
     <header>
         <img class="logo" src="img/Logo.png" alt="">
-     <strong><span class="logo-text">Toboolist</span></strong>
+        <strong><span class="logo-text">Toboolist</span></strong>
     </header>
     <!-- corpo della pagina -->
     <main class="corpo">
         <!-- tasti interattivi -->
         <div class="interact">
-            <button id="task">Add Task</button>
-            <button id="section">Add Section</button>
+            <button id="task"><span id="add"> Add Task</span></button>
+            <button id="section"><span id="add"> Add Section</span></button>
         </div>
         <!-- lista tasks -->
         <section>
-            <div>
-               <span></span> 
-               
+            <div class="list">
+                <strong class="arrow-up">New Task</strong>
+                <p id="arrow-down">Quarterly Newsletter <span class="edit"> Editorial</span></p>
+
             </div>
+            <div class="list">
+                <strong class="arrow-up">Today</strong>
+                <p id="recruiting">Recruiting blog post <span class="edit"> Editorial</span></p>
+                <p id="app">Mobile app launch<span id="goals"> Q1 Goals</span></p>
+                <p id="interview">Interview Jhon.H <span id="rec"> Recruiting</span></p>
+                <p id="summit"> Summit update to mobile storefronts<span id="mobile"> Mobile</span></p>
+            </div>
+            <div class="list">
+                <strong class="arrow-up">Upcoming</strong>
+                <p id="schedule">Schedule meeting with Alex </p>
+                <p id="homepage">Homepage refresh <span id="website"> Website</span></p>
+                <p id="onboard">Onboard new Sales team members <span id="sales"> Sales</span></p>
+                <p id="review">Review editorial calendar <span class="edit"> Editorial</span></p>
+                
+            </div>
+
         </section>
     </main>
 </body>
